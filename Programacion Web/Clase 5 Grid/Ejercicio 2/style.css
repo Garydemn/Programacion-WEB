@@ -1,0 +1,55 @@
+ *{ /* el asterisco se usa para dar una funcion para toda la pagina
+    o para seleccionar todos los elementos */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100% vw;
+    height: 100% vh;
+    border: black;
+    background-color: red;
+}
+.container{
+    width: 100%;
+    height: 10vw;
+    border: white;
+    background-color: red;
+}
+#uno{
+width: 100%;
+height: 150%;
+border: black;
+background-color: cyan;
+display: flex;
+}
+.container2{
+   width: 100%;
+    height: 200px;
+    border: white;
+    display: flex;
+}
+#dos{
+   width: 100%;
+height: 100%;
+border: black;
+background-color: blue;
+}
+#tres{
+    width: 100%;
+    height: 100%;
+    border: black;
+    background-color: blueviolet;
+}
+#cuatro{
+    width: 100%;
+    height: 220%;
+    border: black;
+    background-color: chocolate;
+}
+#cinco{
+   width: 100%;
+    height: 180%;
+    border: black;
+    background-color: greenyellow;   
+}

@@ -1,0 +1,33 @@
+header {
+    width: 1000px;
+    height: 500px;
+    background-color: blue;
+    margin: 0;
+    
+}
+#iz{
+    width: 100px;
+    height: 100px;
+    color: beige;
+    background-color: chocolate;
+    border-radius: 60px;
+}
+#centro{
+    width: 100px;
+    height: 100px;
+    color: beige;
+    background-color: chocolate;
+    border-radius: 60px;
+}
+#der{
+    width: 100px;
+    height: 100px;
+    color: beige;
+    background-color: chocolate;
+    border-radius: 60px;
+}
+.b{
+    display: inline-block;
+   margin-left: 160px;
+   margin-top: 180px;
+}

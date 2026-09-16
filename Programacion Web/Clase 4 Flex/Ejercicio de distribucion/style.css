@@ -1,0 +1,46 @@
+* { /* el asterisco se usa para dar una funcion para toda la pagina
+    o para seleccionar todos los elementos */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+      width: 100%;
+    min-height: 100vh;
+    background-color:white;
+
+    display: grid;
+
+    /* Dos columnas */
+    grid-template-columns: 400px 400px;
+
+    /* Dos filas */
+    grid-template-rows: 400px 400px;
+
+    /* Lleva las cajas hacia las esquinas */
+    justify-content: space-between;
+    align-content: space-between;
+
+    padding: 20px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ height: 400px;
+ width: 400px;
+ background-color: red;
+
+
+}
+.circulos{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

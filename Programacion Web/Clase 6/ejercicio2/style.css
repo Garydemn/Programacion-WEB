@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px black;
+    text-align: center;
+}
+.container{
+    background-color: rgb(57, 119, 174);
+    height: 50px;
+
+}
+.seccionA{
+    display: grid;
+}
+body{
+width: 100vw;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 10vh 45vh;
+grid-template-areas:
+"header"
+"nav"
+"sectionA"
+"sectionB"
+"sectionC"
+"sectionD"
+"service1"
+"service2"
+"service3"
+"service4"
+"footer"
+;
+}
+header{
+    grid-area: header;
+}

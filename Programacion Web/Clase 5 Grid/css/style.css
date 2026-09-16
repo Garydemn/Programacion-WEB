@@ -1,0 +1,29 @@
+ *{ /* el asterisco se usa para dar una funcion para toda la pagina
+    o para seleccionar todos los elementos */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    border: solid black;
+    background-color: red;
+}
+header{
+    width: 100%;
+    height: 300px ;
+    display: flex;
+}
+#uno{
+    background-color: aqua;
+}
+#dos{
+    background-color: violet;
+}
+#tres{
+    background-color: blue;
+}
+#cuatro{
+    background-color: red;
+}
